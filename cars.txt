@@ -1,0 +1,30 @@
+print("Davy's auto shop services")
+print("Oil change -- $35")
+print("Tire rotation -- $19")
+print("Car wash -- $7")
+print("Car wax -- $12")
+price = {"Oil Change":"35$", "Tire rotation":"$19", "Car wash":"$7", "Car wax":"$12"}
+print()
+first = input("Select first service:\n")
+second = input("Select second service:")
+print()
+print("Davey's auto shop invoice")
+print()
+if first == "Oil change":
+    print("Service 1: Oil change, $35")
+if first == "Tire rotation":
+    print("Service 1: Tire rotation, $19")
+if first == "Car wash":
+    print("Service 1: Car wash, $7")
+if first == "Car wax":
+    print("Service 1: Car wax, $12")
+if second == "Oil change":
+    print("Service 2: Oil change, $35")
+if second == "Tire rotation":
+    print("Service 2: Tire rotation, $19")
+if second == "Car wash":
+    print("Service 2: Car wash, $7")
+if second == "Car wax":
+    print("Service 2: Car wax, $12")
+if second == "-":
+    print("No service")
